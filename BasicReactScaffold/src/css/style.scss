@@ -1,6 +1,27 @@
-$base-color: #c6538c;
-$border-dark: rgba($base-color, 0.88);
+$color-light: #fff;
+$color-dark: #121212;
+$color-neon: #f000ff;
+
+@mixin center-item {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin glow {
+  text-shadow: 0 2px 4px $color-neon;
+}
+
+body {
+  background-color: $color-dark;
+  color: $color-light;
+}
+
+.container {
+  @include center-item();
+}
 
 h1 {
-  border: 1px solid $border-dark;
+  @include glow;
 }

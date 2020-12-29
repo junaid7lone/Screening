@@ -19,7 +19,7 @@ Due to these factors a successful front end engineer should have a solid grasp o
 - [x] Compile .scss files and autoprefix CSS3/CSS4 features
 - [x] Demonstrate its functionality by creating two basic javascript (React) and Sass files, and allow webpack to compile them
   - These files can look and behave however you want them to - a basic header tag with minimal styling is sufficient
-- [ ] When building for production, include an h1 tag in your JSX that states that the app is currently running in production
+- [x] When building for production, include an h1 tag in your JSX that states that the app is currently running in production
 - [x] When compiling in development mode, the same h1 tag should read "This app is running in development mode"
 
 **A few things to keep in mind during this exercise:**

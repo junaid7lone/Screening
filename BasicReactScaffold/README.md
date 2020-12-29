@@ -1,6 +1,8 @@
 ## Basic React Scaffold:
+
 The goal of this exercise is scaffold out a basic react project using webpack.
-___
+
+---
 
 As UI engineers, we need to take into account several parameters during our builds and deployments. Over a piece of software's lifespan it's common to outgrow basic webpack configurations. It is important to account for the following:
 
@@ -12,12 +14,13 @@ As UI engineers, we need to take into account several parameters during our buil
 Due to these factors a successful front end engineer should have a solid grasp of node.js and webpack
 
 **The following is a spec checklist for our desired functionality:**
-- [ ] Compile Javascript files that may contain JSX and polyfill your favorite JS features
-- [ ] Compile .scss files and autoprefix CSS3/CSS4 features
-- [ ] Demonstrate its functionality by creating two basic javascript (React) and Sass files, and allow webpack to compile them
+
+- [x] Compile Javascript files that may contain JSX and polyfill your favorite JS features
+- [x] Compile .scss files and autoprefix CSS3/CSS4 features
+- [x] Demonstrate its functionality by creating two basic javascript (React) and Sass files, and allow webpack to compile them
   - These files can look and behave however you want them to - a basic header tag with minimal styling is sufficient
 - [ ] When building for production, include an h1 tag in your JSX that states that the app is currently running in production
-- [ ] When compiling in development mode, the same h1 tag should read "This app is running in development mode"
+- [x] When compiling in development mode, the same h1 tag should read "This app is running in development mode"
 
 **A few things to keep in mind during this exercise:**
 

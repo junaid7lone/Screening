@@ -27,3 +27,9 @@ Due to these factors a successful front end engineer should have a solid grasp o
 1. For the sake of brevity there is no need to compile images of any kind or polyfill old browsers - the goal is to simply demonstrate some basic webpack functionality without the help of tools like Create React App, Yeoman, etc.
 2. During a production build it is nice to see optimized files
 3. You will get bonus points for lazy loaded chunks
+
+**Installation**
+To install the packages simply run `yarn` command.
+To run app with production build run `yarn start:prod`
+To run app with development build run `yarn start:dev`
+To create a production build run `yarn build`
